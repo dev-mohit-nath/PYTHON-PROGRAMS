@@ -1,0 +1,5 @@
+tup = (1, 2, 3, 4, 5, 9)
+counting = tup.count(9)
+index = tup.index(3)
+Type = type(tup)
+print("tup:", tup ,"\ncounting:", counting, "\nindex:", index , "\nType:", Type)
