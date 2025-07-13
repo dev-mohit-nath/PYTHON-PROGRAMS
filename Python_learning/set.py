@@ -31,3 +31,11 @@ languages.remove("Java") # Removing Java from the set
 print("Languages after removing Java:", languages) # Displaying the set after removing Java
 languages.pop() # Removing an arbitrary element from the set
 print("Languages after pop:", languages) # Displaying the set after pop
+
+print("Union of sets:")
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+print(set1.union(set2))
+
+print("Intersection of sets:")
+print(set1.intersection(set2)) # Displaying the intersection of two sets
