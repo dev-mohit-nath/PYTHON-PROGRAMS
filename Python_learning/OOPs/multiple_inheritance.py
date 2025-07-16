@@ -2,7 +2,7 @@ class A:
     varA =  "This is class A variable"
 class B:
     varB = "This is class B variable"
-class C(A, B):
+class C(A, B): # Multiple inheritance
     varC = "This is class C variable"
 c_instance = C()
 print(c_instance.varA)  # Accessing variable from class A

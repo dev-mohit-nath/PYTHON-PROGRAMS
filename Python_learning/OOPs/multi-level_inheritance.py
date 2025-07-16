@@ -30,5 +30,4 @@ print("Model:", car1.model)
 print("Year:", car1.year)
 print("Color:", car1.color)
 print("Engine Type:", car1.engine_type)
-print(Fortuner())
 print("Car is a Toyota Fortuner")  # Additional information about the car

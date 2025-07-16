@@ -16,5 +16,5 @@ class ToyotaCar(Car):
         super().stop()
 car1 = ToyotaCar("prius", "Electric")
 print(car1.name)
-
+print(car1.type)
         

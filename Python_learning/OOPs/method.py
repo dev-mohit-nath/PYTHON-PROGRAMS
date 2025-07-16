@@ -5,8 +5,6 @@ class Student:
     def display(self):
         print("Name:", self.name)
         print("Marks:", self.marks)
-    def __str__(self):
-        return f"Name: {self.name}, Marks: {self.marks}"
         
 s1 = Student("Mohit", 95) 
 s1.display() 
@@ -15,6 +13,4 @@ s2.display()
 s3 = Student("Smith", 90)
 s3.display
 s4 = Student("Piyush", 75)
-s4.display()
-s5 = Student("John", 80)
-s5.__str__()  # Calling the __str__ method to get a string representation of the object
+s4.display() # Calling the __str__ method to get a string representation of the object
