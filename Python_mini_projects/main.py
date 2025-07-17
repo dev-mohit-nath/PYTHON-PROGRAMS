@@ -23,9 +23,17 @@ else:
     if(computer == you):
         print("Game is draw.")
 
-    elif (you == -1 and computer == 1) or \
-         (you == 1 and computer == 0) or \
-         (you == 0 and computer == -1):
-        print("You win!")
     else:
-        print("You lose!")
+        if(computer == -1 and you == 1):
+            print("you win!")
+        elif(computer == 1 and you == -1):
+            print("you lose!")
+        elif(computer == 1 and you == 0):
+            print("you win!")
+        elif(computer == 0 and you == 1):
+            print("you lose!")
+        elif(computer == -1 and you == 0):
+            print("you lose!")
+        elif(computer == 0 and you == -1):
+            print("you win!")
+    
