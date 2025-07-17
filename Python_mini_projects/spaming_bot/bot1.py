@@ -5,7 +5,6 @@ import time
 string = input("Enter Here What you want to spamm... : \n")
 for i in range(3, 1):
     print(i)
-    
     while True:
         if (kbd.is_pressed('q')):
             break
