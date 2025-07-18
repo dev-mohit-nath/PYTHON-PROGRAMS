@@ -1,3 +1,0 @@
-this is a file handling exepent.
-we are writting to a file.
-This line is append.
