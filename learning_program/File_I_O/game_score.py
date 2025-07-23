@@ -9,7 +9,7 @@ def game():
         if hiscore != "":
             hiscore = int(hiscore)
         else:
-            hiscore =0
+            hiscore = 0
         
         print(f"Yore Score: {score}") 
         
